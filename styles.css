@@ -1,0 +1,81 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1F2023;
+    color: #00FF37;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    min-width: 450px;
+    padding: 1rem;
+    background-color: #252D2D;
+    border: 1px solid #00FF37;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 2px #00FF37;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+}
+
+h1 {
+    text-shadow: 1px 1px 1px yellow;
+    letter-spacing: 0.3rem;
+}
+
+input {
+    height: 2rem;
+    background-color: #252D2D;
+    border: none;
+    border-bottom: 2px solid #00FF37;
+    color: #00FF37;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+div {
+   text-align: center;
+   font-size: 2rem;
+   position: absolute;
+   top: 220px;
+}
+
+button {
+    width: 150px;
+    height: 3rem;
+    background-color: #1F2023;
+    border: 3.5px solid #00FF37;
+    border-radius: 0.3rem;;
+    color:#00FF37;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 1px 2px yellow;
+}
+
+button:hover {
+    background-color: #00FF37;
+    border: 1px solid #1F2023;
+    color: #1F2023;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 2px #00FF37;
+    cursor: pointer;
+}
